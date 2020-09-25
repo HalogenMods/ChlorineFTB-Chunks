@@ -383,5 +383,10 @@ curseforge {
         }
         addArtifact sourcesJar
         addGameVersion '1.16.2'
+        relations {
+            requiredDependency 'ftb-chunks'
+            requiredDependency 'ftb-gui-library'
+            requiredDependency 'chlorine'
+        }
     }
 }

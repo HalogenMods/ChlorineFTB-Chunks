@@ -2,8 +2,12 @@
   "package": "dev.hanetzer.chlorineftbchunks.mixin",
   "required": true,
   "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8.1",
   "refmap": "chlorine.refmap.json",
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "client": [
+    "SodiumWorldRendererMixin"
+  ]
 }
