@@ -1,0 +1,9 @@
+{
+  "package": "dev.hanetzer.chlorineftbchunks.mixin",
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "chlorine.refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

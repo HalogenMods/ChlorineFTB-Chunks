@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[${javafml_min},${javafml_max})"
+issueTrackerURL="http://github.com/HalogenMods/ChlorineFTB-Chunks/issues"
+license="GNU Lesser General Public License v3.0"
+
+[[mods]]
+modId="chlorineftbchunks"
+version="${version}"
+displayName="ChlorineFTB-Chunks"
+authors="hanetzer"
+description='''
+        ChlorineFTB-Chunks is an addon to chlorine & ftb chunks aiming to allow the two to work together.
+        '''
+credits="hanetzer"
+
+[[dependencies.chlorineftbchunks]]
+    modId="forge"
+    mandatory=true
+    versionRange="[${forge_min},${forge_max})"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependency.chlorineftbchunks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[${minecraft_min},${minecraft_max})"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependency.chlorineftbchunks]]
+    modId="ftbchunks"
+    mandatory=true
+    versionRange="[${ftb_chunks_version},)"
+
+[[dependency.chlorineftbchunks]]
+    modId="chlorine"
+    mandatory=true
+    versionRange="[${chlorine_version},)"
